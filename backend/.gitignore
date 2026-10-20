@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Ignore local secrets and environment-specific overrides; keep the safe template.
+.env*
+!.env.example

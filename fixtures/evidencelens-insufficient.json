@@ -1,0 +1,13 @@
+{
+  "overall_status": "insufficient_evidence",
+  "claims": [
+    {
+      "text": "This image was taken in Hyderabad.",
+      "status": "insufficient_evidence",
+      "evidence": "The visible image contains a red circle on a plain background and no identifiable location cues.",
+      "explanation": "The scene shown cannot establish the city where the image was captured.",
+      "confidence": "high"
+    }
+  ],
+  "limitations": ["A location or timestamp cannot be inferred from this image."]
+}

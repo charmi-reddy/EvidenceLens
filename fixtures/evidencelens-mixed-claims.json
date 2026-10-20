@@ -1,0 +1,30 @@
+{
+  "overall_status": "contradicted",
+  "claims": [
+    {
+      "text": "A red circle is visible in the image.",
+      "status": "supported",
+      "evidence": "A red circular shape is visible in the center of the image.",
+      "explanation": "The visible object matches the stated color and shape.",
+      "confidence": "high"
+    },
+    {
+      "text": "A blue square is visible in the image.",
+      "status": "contradicted",
+      "evidence": "The image shows a red circle; no blue square is visible.",
+      "explanation": "The observed color and shape conflict with the claim.",
+      "confidence": "high"
+    },
+    {
+      "text": "This image was taken in Hyderabad.",
+      "status": "insufficient_evidence",
+      "evidence": "No location marker or recognizable place is visible in the image.",
+      "explanation": "The image does not establish its capture location.",
+      "confidence": "high"
+    }
+  ],
+  "limitations": [
+    "The image cannot establish its capture location or time.",
+    "Visual consistency does not prove authenticity."
+  ]
+}

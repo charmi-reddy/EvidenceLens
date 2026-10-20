@@ -1,0 +1,8 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+
+# Ignore local environment files; keep the safe template for setup.
+.env*
+!.env.example

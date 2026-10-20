@@ -1,0 +1,57 @@
+{
+  "evaluation_kind": "historical_live_smoke_outputs_only",
+  "dataset_cases": 9,
+  "dataset_labelled_claims": 15,
+  "successful_observed_cases": 2,
+  "failed_observed_cases": 1,
+  "matched_observed_claims": 2,
+  "unmatched_prediction_claims": [],
+  "expected_claims_without_observed_prediction": 13,
+  "dataset_cases_without_successful_observation": 7,
+  "labels_in_order": [
+    "supported",
+    "contradicted",
+    "insufficient_evidence"
+  ],
+  "confusion_matrix_rows_expected_columns_predicted": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_class": {
+    "supported": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1,
+      "predicted_count": 1
+    },
+    "contradicted": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1,
+      "predicted_count": 1
+    },
+    "insufficient_evidence": {
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "support": 0,
+      "predicted_count": 0
+    }
+  },
+  "interpretation": "Exploratory smoke-check metrics only; two historical live claims, one per observed class. Not a representative benchmark, general accuracy estimate, or result from fixture responses."
+}

@@ -1,0 +1,13 @@
+{
+  "overall_status": "contradicted",
+  "claims": [
+    {
+      "text": "A blue square is visible in the image.",
+      "status": "contradicted",
+      "evidence": "A red circle is visible on a white background; no blue square is visible.",
+      "explanation": "The observed color and shape conflict with the claim.",
+      "confidence": "high"
+    }
+  ],
+  "limitations": ["The image cannot establish when or where it was captured."]
+}

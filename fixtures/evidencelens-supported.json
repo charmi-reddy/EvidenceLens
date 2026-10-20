@@ -1,0 +1,13 @@
+{
+  "overall_status": "supported",
+  "claims": [
+    {
+      "text": "A red circle is visible in the image.",
+      "status": "supported",
+      "evidence": "The image shows a red circular shape centered on a plain white background.",
+      "explanation": "The visible color and shape match the claim.",
+      "confidence": "high"
+    }
+  ],
+  "limitations": ["The image cannot establish when or where it was captured."]
+}
